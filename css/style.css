@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1184x;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+.title_section{
+    padding: 100px 0;
+}
+
+.title_section h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #19191B;
+    text-transform: capitalize;
+}
+.title_section p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    color: 19191B;
+}
+.title_buttons{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.title_buttons a{
+    padding: 12px 18px;
+    font-size: 14;
+    line-height: 25px;
+   color: #19191B;
+   font-family: "Inter", sans-serif;
+   text-decoration: none;
+   border-radius: 12px;
+}
+.title_buttons .buttonone{
+    background: #F8F8F8;
+}
+.title_buttons .buttontwo{
+    background: #6236F5;
+    color: #fff;
+}
+
+/* ----------- card section start---------------- */
+.card_section{
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    flex-wrap: wrap;
+}
+.card_item{
+    background: #F8F8F8;
+    width: 344px;
+    text-align: left;
+    border-radius: 12px;
+}
+.card_image{
+    height: 310px;
+    overflow: hidden;
+}
+.card_info{
+    padding: 16px 24px;
+}
+.card_info h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    color: #19191B;
+}
+.card_info h4{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+    color: #6236F5;
+}
+.card_info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+    color: #787A82;
+}
+.card_info  .card_sm{
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+.card_info  .card_sm i{
+    font-size: 17px;
+    color: #787A82;
+}
+
+/* --------- card section end ----------- */
+
+/* ---- hover effect start----- */
+
+.card_item:hover{
+    background: #19191B;
+    transition: 0.4s;
+}
+.card_item:hover .card_info h3{
+    color: #fff;
+}
+.card_item:hover .card_info p{
+    color: #fff;
+}
+.card_item:hover .card_info .card_sm i{
+    color: #fff;
+}
+/* ---- hover effect end ----- */
